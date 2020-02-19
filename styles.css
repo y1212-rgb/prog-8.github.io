@@ -1,0 +1,1451 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+   font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+  }
+  
+  /* change border colour to suit your needs */
+  hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+  }
+  
+  input, select {
+    vertical-align:middle;
+  }
+  
+  /* //////////---以上リセットCSS---/////////// */
+  
+
+
+
+
+
+
+
+
+
+
+  body{
+      /* overflow: hidden; */
+      font-family: "Microsoft Sans Serif";
+      font-size: 20px;
+      letter-spacing: 1.3px;
+  }
+  .header-main{
+      position: fixed;
+      z-index: 10;
+      background-color: #fff;
+      width:100%;
+  }
+  .header{
+      
+      width: 100%;
+      /* ///原本だとheader-inクラスを設定して、そこに入れている/// */
+      width: 1170px;
+      max-width: calc(100% - 20px);
+      margin: 0 auto;
+      position: relative;
+      padding: 10px 0;
+      height: 40px;
+      /* ///ここまで/// */
+  }
+  #header-form-mob{
+      display: none;
+  }
+  .header-logo{
+      /* position: fixed;
+      z-index: 10; */
+      display: inline-block;
+      
+      margin-top: -6px;
+  }
+  .header-logo img{
+      width: 128px;
+  }
+  .header-content{
+      position: relative;
+      bottom: 10px;
+      display: inline-block;
+      /* position: fixed;
+      z-index: 10; */
+  }
+  .header-content p{
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 0;
+      letter-spacing: 2px;
+  }
+  .header-form{
+      cursor: pointer;
+      position: absolute;
+      right: 0px;
+      top: 5px;
+      color: #fff;
+      padding: 15px 40px;
+      background-color: #da6b64;
+      border-radius: 25px;
+  }
+  .header-form p{   
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 2px;
+  }
+  /* ///////////////////////////////////////////////////////////////*/
+  
+  .main{
+      padding-top: 75px;
+      /* padding-right: 15px;
+      padding-left: 15px; */
+  }
+  .main-sub{
+      background-image: url(https://isara.life/wp-content/themes/isara_v2/img/main.jpg);
+      background-position: center;
+      width: 100%;
+      height: 500px;
+      background-size: cover;
+      display: table;
+      /* margin-right: -15px; */
+      /* margin-left: -15px; */
+      margin-top: -100px;
+  }
+  .text-img{
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      
+  }
+  .tt11{
+    margin-top: 30px;
+  }
+  .text{
+     
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 4px;
+      line-height: 40px;
+  }
+  .text-img p{
+      font-size: 18px;
+      font-weight: lighter;
+  }
+  .text-img img{
+      width: 317px;
+      margin: 20px auto;
+  }
+  
+  .conversion{
+      background-color: #ebb94d;
+      text-align: center;
+      padding: 30px 0;
+      font-size: 15px;
+      line-height: 1.6;
+  }
+  
+  .conversion p{
+      color:#fff;
+  }
+  
+  .txt1{
+      font-weight: 600;
+  }
+  .txt1 p{
+      line-height: 30px;
+      font-size: 18px;
+      letter-spacing: 2px;
+  }
+  .txt1 code{
+      font-size: 22px;
+      line-height: 50px;
+  }
+  .txt1 code{
+      color: #c7254e;
+      background-color: #f9f2f4;
+      border-radius: 4px;
+  }
+  .conversionbtn{
+      background-color: #da6b64;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 50px;
+      padding: 40px 50px;
+      margin: 30px 100px;
+  }
+  .conversionbtn p{
+      font-size: 25px;
+  }
+  .txt2 p{
+      font-size: 22px;
+      line-height: 60px;
+      font-weight: 600;
+  }
+  .brsp{
+    /* visibility :hidden; */
+    display: none;
+  }
+  .txt1 code br{
+    display: none;
+  }
+  
+  .sns{
+      display: flex;
+      margin: 0 330px;
+  }
+  .tweet{
+      background-color:#1B95E0;
+      border-radius: 5px;
+      margin: 0px auto;
+      width:75px;
+      height:15px;
+      font-size: 5px;
+  }
+  .btn_twitter{
+      text-decoration: none;
+      color:white;
+      
+  }
+  .facebook{
+      background-color: #1877F2;
+      border-radius: 5px;
+      margin: 0px auto;
+      width:80px;
+      height:15px;
+      font-size: 5px;
+  }
+  .btn_facebook{
+      text-decoration: none;
+      color:#fff;
+  }
+  .share{
+      background-color: #1877F2;
+      border-radius: 5px;
+      margin: 0px auto;
+      width:50px;
+      height:15px;
+      font-size: 5px;
+  }
+  .btn_share{
+      text-decoration: none;
+      color:#fff;
+  }
+  .introduce{
+      position: relative;
+      background-image: url(https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg);
+      background-size: cover;
+      height: 580px;
+  }
+  .text-a::before{
+      position: absolute;
+      top: -50px;
+      left: 30px;
+      /* position: absolute;
+      top: 1200px;
+      left: 100px; */
+      /* ↑親要素(ここではイントロヂュース)にposition:relative;を付けないとデフォルトのトップの左上を起点にしてしまう！！ */
+      border-top: 4px solid #ebb94d;
+      border-left: 4px solid #ebb94d;
+  
+      content: "";
+      width: 50px;
+      height: 50px;
+  }
+  .text-a::after{
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      border-bottom: 4px solid #ebb94d;
+      border-right: 4px solid #ebb94d;
+      content: "";
+      width: 50px;
+      height: 50px;
+  }
+  .text-a-a{
+      text-align: center;
+      margin-top:130px;
+      margin-bottom: 80px;
+      line-height: 40px;
+      font-weight: bold;
+      font-size: 25px;
+  }
+  .text-b p{  
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 300;
+      text-align: center;
+      padding-bottom: 50px;
+  }
+  .underline{
+      border-bottom: solid 6px orange;
+      font-weight: bold;
+  }
+  /* ////////////////////////////////////////////////////////////////////// */
+  
+  .about{
+      position: relative;
+      background-color: #FEF5E0;
+      text-align: center;
+      padding-bottom: 40px;
+      /* height: 600px; */
+  }
+  .about-icon{
+      position: relative;
+      top:-40px;
+  }
+  .circle1{
+      /* position: relative;
+      display: inline-block;
+      text-align: center;
+      background-color: #EBB94D;
+    
+      width:   90px;
+      height: 90px;
+      border-radius: 50px;
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 2px; */
+      color: #fff;
+      background-color: #ebb94d;
+      padding: 0;
+      margin: 0;
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 50%;
+      font-size: 14px;
+      font-weight: lighter;
+  }
+  .txt1{
+      font-size: 28px;
+      line-height: 40px;
+      font-weight: 600px;
+      color: #333333;
+      padding-top: 60px;
+  }
+  .txt11{
+      margin-top: -40px;
+  }
+  .txt22{
+      margin-top: 40px;
+      margin-bottom: 60px;
+  }
+  .about-title::before{
+      position: absolute;
+      border-top: 4px solid #ebb94d;
+      border-left: 4px solid #ebb94d;
+      top: 80px;
+      left: 200px;
+      content: "";
+      width: 50px;
+      height: 50px;
+  }
+  .about-title::after{
+      position: absolute;
+      top: 140px;
+      right: 200px;
+      border-bottom: 4px solid #ebb94d;
+      border-right: 4px solid #ebb94d;
+      content: "";
+      width: 50px;
+      height: 50px;
+  }
+  .txt2{
+      font-size: 24px;
+      line-height: 26px;
+      font-weight: 600px;
+      color: #333333;
+      padding-top: 0px;
+  }
+  .about-box{
+      background-color: #fff;
+      border: 2px solid orange;
+      border-radius: 5px;
+      /* height:250px; */
+      width: 90%;
+      margin: 30px auto;
+      
+  }
+  .box{
+      display: inline-block;
+      
+      margin: 20px 20px;
+  }
+  .txt3{
+      font-size: 20px;
+      line-height: 32px;
+      font-weight: 600px;
+      color:#333;
+      margin-top: 30px;
+  }
+  .txt4{
+      
+      font-size: 12px;
+      line-height: 19px;
+      font-weight: 300px;
+  }
+  /* ////////////////////////////////////////////////////////////////////// */
+  
+  .description{
+      text-align: center;
+      /* height: 440px; */
+      width: 100%;
+      background-image: url(https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbg.jpg);
+      background-size: cover;
+      background-position: center;
+  }
+  .txt-detail{
+      color: #fff;
+  }
+  .span{
+      color:#EBB94D;
+  }
+  .p-min{
+      font-size: 20px;
+      font-weight: 600px;
+      line-height: 40px;
+  }
+  .p-big{
+      font-size: 28px;
+      font-weight: 600px;
+      line-height: 40px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+  }
+  .txt-step{
+      padding-top: 40px;
+      background-color: #fff;
+      display: inline-block;
+      border-radius: 5px;
+      width: 370px;
+      /* height: 150px; */
+      margin: 40px 10px;
+  }
+  .step{
+      margin: 0 30px;
+      color: #fff;
+      border-radius: 5px;
+      background-color: #EBB94D;
+      font-size: 16px;
+      font-weight: 600px;
+      line-height: 26px;
+  }
+  .txt-min1{
+      /* *paddingを設定すると、その分白い箱が伸びる→再度heightを小さめに赤衛する必要がある→スマートではない */
+      margin: 25px 0;
+      font-size: 14px;
+      font-weight: 600px;
+      line-height: 22px;
+  }
+  .txt-min2{
+      margin: 20px 0;
+      font-size: 16px;
+      font-weight: 600px;
+      line-height: 26px;
+  }
+  .txt-important{
+      background-color: #026EA9;
+      padding: 0;
+      color: #fff;
+      margin-top: -10px;
+      height: 140px;
+      width: 100%;
+  }
+  .txt-important p{
+      padding-top: 30px;
+      font-size: 20px;
+      letter-spacing: 2px;
+      line-height: 30px;
+  }
+  .span2{
+      color: #ebb94d;
+  }
+  .easy{
+      position: relative;
+      top: 200px;
+      text-align: center;
+      height: 430px;
+  }
+  .b{
+      margin: 40px 0;
+      font-weight: 400;
+      font-size: 20px;
+  }
+  .imagelist  img{
+      width: 180px;
+      height: auto;
+      margin-left: 50px;
+  }
+  .c{
+      font-weight: bold;
+      font-size: 15px;
+      margin-top: 50px; 
+  }
+  .m{
+      text-align: center;
+      background-color: #FEF5E0;
+      position: relative;
+      top:180px;
+  }
+  .m1-1{
+      padding-top: 50px;
+      letter-spacing: 2px;
+  }
+  .m1-1::before{
+      position: absolute;
+      border-top: 4px solid #ebb94d;
+      border-left: 4px solid #ebb94d;
+      top: 20px;
+      left: 200px;
+      content: "";
+      width: 50px;
+      height: 50px;
+  }
+  .m1-2{
+      font-size: 30px;
+      padding: 20px;
+  }
+  .m1-2::after{
+      position: absolute;
+      top: 90px;
+      right: 250px;
+      border-bottom: 4px solid #ebb94d;
+      border-right: 4px solid #ebb94d;
+      content: "";
+      width: 50px;
+      height: 50px;
+  }
+  .m1{
+      padding: 10px;
+  }
+  .m2{
+      vertical-align: top;
+      display: inline-block;
+      margin-top: 30px;
+  }
+  .m3{
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 32px;
+      color: #ebb94d;
+  }
+  .m4{
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 26px;
+      color: #333;
+      margin-left: 20px;
+  }
+  .m5{
+      background-color: #fff;
+      border: 2px solid #ebb94d;
+      margin:50px 40px 0px 40px;
+      padding: 40px 0;
+      border-radius: 5px;
+      
+  }
+  .m6{
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 45px;
+      color: #ebb94d;
+  }
+  .m7{
+      padding: 20px 0;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 2px;
+  }
+  .m8{
+      letter-spacing: 3px;
+      font-size: 17px;
+  }
+  .m9{
+      font-size: 15px;
+      padding: 30px 0;
+  }
+  .l1{
+      background-image: url(https://isara.life/wp-content/themes/isara_v2/img/teacherbg.jpg);
+      position: relative;
+      top: 250px;
+      text-align: center;
+      margin-top: -70px;
+      background-size: cover;
+      overflow: hidden;
+  }
+  /* .clearfix::after{
+    content: "";         /* 擬似要素を実体化 */
+    /* clear: both;        /* floatを解除する */
+    /* display: block;     ブロック要素にする */ */
+  /* } */ */
+  .l1{
+      padding: 50px 0;
+      /* margin-bottom: 300px; */
+  }
+  .l2{
+      color: #fff;
+      font-weight: bold;
+      padding-top: 80px;
+      font-size: 26px;
+  }
+  .l3{
+      font-size: 16px;
+      color: #fff;
+      padding-top: 40px;
+  }
+  /* .l4{
+      width: 50%;
+      float: left;
+      position: relative;
+  }
+  .clear{
+      clear: left;
+  }
+  .l5 img{
+      border-radius: 50%;
+      position: relative;
+      top:30px;
+  }
+  .l6{
+      border: 2px solid #fff;
+      padding: 40px;
+      margin-bottom: 30px;
+      margin-left: 60px;
+      height: 300px;
+      width: 290px;
+      text-align: justify;
+  }
+
+  .l7{
+      color: #fff;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+  }
+  .l8{
+      margin-top: 30px;
+      color: #fff;
+      font-size: 15px;
+      letter-spacing: 5px;
+      line-height: 20px;
+  } */
+   .l4{
+      display: block;
+      width: 45%;
+      float: left;
+      padding: 0 20px;
+      margin-bottom: 40px;
+      /* background-color: lightcoral; */
+      margin-left: 15px;
+      /* margin-left: 150px;
+      margin-right: 150px; */
+     } */
+
+
+
+      .l4{
+      /* position: relative; */
+      display: block;
+      margin: 0 30px;
+      width: 30%;
+      padding: 20px;
+      float: left;
+      background-color: lightcoral;
+      }
+  .clear{
+      clear: left;
+  }
+  .l5 img{
+      border-radius: 50%;
+      position: relative;
+      bottom: -35px
+  }
+  .l6{
+      color: #fff;
+      border: 2px solid #fff;
+      padding-left: 35px;
+      padding-right: 35px;
+      padding-bottom: 40px;
+      text-align: justify;
+      /* height: 300px;
+      width: 290px; */
+  }
+  .l7{
+      padding: 50px 0px;
+      text-align: center;
+  }
+  .l8{
+      font-size: 15px;
+      letter-spacing: 2px;
+  } */
+
+
+  /* .l-big{
+      padding-top: 50px;
+      margin-left: 150px;
+      margin-right: 150px;
+  } */
+  .q1{
+      position: relative;
+      top:250px;
+  }
+  .q3{
+      background-color: #EBB94D;
+      text-align: center;
+      height: 250px;
+  }
+  .q3::after{
+    width: 0;
+    height: 0;
+    border-top:30px solid #EBB94D;
+    border-right:30px solid #fff;
+    border-left:30px solid #fff;
+    border-bottom:30px solid #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 140px;
+    margin-left: -25px;
+    content: "";
+  }
+  .q4{
+      color: #EBB94D;
+      background-color: #fff;
+      padding: 0;
+      margin: 30px auto;
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 50%;
+  }
+  .q5::before{
+    position: absolute;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+    top: 120px;
+    left: 200px;
+    content: "";
+    width: 50px;
+    height: 50px;
+  }
+  .q5{
+      color: #fff;
+      line-height: 30px;
+      font-size: 28px;
+  }
+  .q5::after{
+      border-bottom: 4px solid #fff;
+      border-right: 4px solid #fff;
+      content: "";
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 160px;
+      right: 200px;
+  }
+  .q6{
+      text-align: center;
+  }
+  .q7{
+    padding-top: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .q8{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .q9{
+    padding-top: 30px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0;
+    margin-bottom: 50px;
+  }
+  .q10{
+      text-align: left;
+      margin-left: 250px;
+      margin-right: 200px;
+      width: 20%;
+      float: left;
+  }
+  .q10 img{
+      border: 2px solid #EBB94D;
+      width: 220px;
+      height: 220px;
+  }
+  .q11{
+      font-size: 18px;
+      line-height: 29px;
+      width: 50%;
+      float: left;
+      color: #777;
+      font-style: italic;
+  }
+  .q12{
+      font-size: 15px;
+      line-height: 24px;
+      width: 50%;
+      float: left;
+      text-decoration: underline;
+  }
+#container{
+    display: grid;
+    grid-template-rows: 100px 170px;
+    grid-template-columns:250px 900px;
+}
+#itemA{
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+#itemB{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+#itemC{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.p1-1{
+    position: absolute;
+    width: 100%;
+}
+.p1{
+    position: relative;
+    top:1030px;
+    background-image: url(https://isara.life/wp-content/themes/isara_v2/img/classbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px;
+}
+.p2{
+    margin: 50px 0px;
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+}
+.p3{
+    font-size: 28px;
+    padding-bottom: 20px;
+    letter-spacing: 1.2px;
+}
+.p4{
+    font-size: 15px;
+    letter-spacing: 1.7px;
+}
+.p5{
+    float: left;
+    position: relative;
+    left: 200px;
+}
+.p6{
+   border: 2px solid #016DA9;
+   width: 400px;
+   border-radius: 3px;
+}
+.p7{
+    color: #fff;
+    padding: 20px 0;
+    background-color: #016DA9;
+    letter-spacing: 1.5px;
+}
+.li{
+    border: 1px dotted #777;
+    padding: 15px 0;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.p9{
+    margin-top: 50px;
+    float: left;
+    position: relative;
+    left: 200px;
+}
+.float_box {
+    padding: 20px 10px;         /* 箱の大きさ調整 */             /* 箱の大きさ調整 */
+    text-align: center;         /* テキストをセンタリング */
+    margin: 0px auto;                /* 箱と箱の間を開ける */
+    
+}
+.clearfix:after {
+    content: "";         /* 擬似要素を実体化 */
+    clear: both;        /* floatを解除する */
+    display: block;     /* ブロック要素にする */
+}
+.r2{
+    position: relative;
+    top:1830px;
+    bottom: 0px;
+}
+.r1{
+    position: absolute;
+    width: 100%;
+    background-color: #016DA9;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+.e0{
+    position: relative;
+}
+.e1{
+    position: absolute;
+    top:2000px;
+    text-align: center;
+ 
+}
+.e2{
+    padding-bottom: 60px;
+    font-size: 30px;
+}
+.e4{
+    background-color: #FEF5E0;
+    border-radius: 7px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    height: 250px;
+    overflow: hidden;
+    width: 90%;
+}
+.e3{
+    margin-bottom: 70px;
+}
+.e5{
+    padding: 20px;
+}
+.e6{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.e66{
+    margin-top: 0px;
+    line-height: 25px;
+}
+.e7{
+    float: left;
+    padding: 20px 0px 30px 20px;
+    width: 200px;
+}
+.e11{
+    float: left;
+    line-height: 30px;
+    overflow: hidden;
+    width: 75%;
+    text-align: left;
+    margin-top: 20px;
+}
+.e8{
+    font-size: 16px;
+    font-weight: bold;
+   margin-top: 10px;
+}
+.span-2{
+    font-size: 12px;
+  
+    font-weight: lighter;
+}
+.e9{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold; 
+}
+.e9-1{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: lighter; 
+}
+.span-5{
+    line-height: 60px;
+    color: black;
+}
+.e99{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.t0{
+    position: relative;
+}
+.t1{
+    position: absolute;
+    top:3880px;
+    background-image: url(https://isara.life/wp-content/themes/isara_v2/img/bangkokbg.jpg);
+    width: 100%;
+    background-size: cover;
+}
+.t2{
+    padding: 50px;
+    letter-spacing: 1.5px;
+}
+.t3{
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.t4{
+    color: #fff;
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.t5 li{
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-left: 20px;
+    padding: 5px 0;
+}
+.t6{
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.y1{
+    position: relative;
+}
+.y2{
+    position: absolute;
+    top:4310px;
+    background-color: #F7C23B;
+    width: 100%;
+    text-align: center;
+}
+.y3{
+    padding-top: 50px;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.y4{
+    padding-top: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.y5{
+    position: relative;
+    bottom: -60px;
+    background-color: #F7C23B;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.span-3{
+    color: #fff;
+}
+.y7{
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #ebb94d;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.y8{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    padding: 0 20px;
+}
+.y9{
+    margin: 0 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    float: left;
+    
+}
+.y10{
+    height: 250px;
+    width: 840px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border: 2px solid #fff;
+    padding: 60px 15px;   
+}
+.u0{
+    position: relative;
+}
+.u1{
+    position: absolute;
+    top:5080px;
+    background-image: url(https://isara.life/wp-content/themes/isara_v2/img/specialdetail.jpg);
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+
+}
+.u2{
+    margin-top: 30px;
+    padding: 20px 0;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 26px;
+}
+.plus::before{
+    position: absolute;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    width: 50px;
+    height:50px;
+    content: "";
+    left: 50px;
+    top: 230px;
+    margin-left: 150px;
+}
+.plus::after{
+    position: absolute;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    width: 50px;
+    height:50px;
+    content: "";
+    right: 50px;
+    top: 270px;
+    margin-right: 150px;
+}
+.u3{
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+
+
+
+.s1{
+    position: absolute;
+}
+.s2{
+    position: relative;
+    top:5600px;
+    text-align: center;
+}
+.s3{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+    padding: 20px 0;
+    
+}
+.s4{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+.plus2{
+    margin-bottom: 100px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding: 30px;
+    margin-left: 150px;
+}
+.s8{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: left;
+}
+.s5{
+    margin-bottom: 40px;
+}
+.s6{
+    margin-bottom: 40px;
+}
+.s7{
+    margin-bottom: 80px;
+    width: 80%;
+}
+.f1{
+    position: relative;
+}
+.f2{
+    position: absolute;
+    top:6200px;
+    background-color: #EBB94D;
+    width: 100%;
+    text-align: center;
+}
+.f3{
+    padding: 30px;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.f4{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 2px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#rendou1{
+    margin: 20px;
+    height: 50px;
+    width: 800px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding-left: 10px;
+}
+#rendou2{
+    margin: 20px;
+    height: 50px;
+    width: 800px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding-left: 10px;
+}
+#rendou3{
+    margin: 20px;
+    height: 50px;
+    width: 800px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding-left: 10px;
+}
+#comment{
+    margin: 20px;
+    height: 100px;
+    width: 800px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding-left: 10px;
+}
+#submit{
+    margin: 40px auto;
+    height: 30px;
+    width: 760px;
+    font-size: 26px;
+    border-radius: 30px;
+    border: 1px solid #DA6B64;
+    padding-left: 10px;
+    background-color: #DA6B64;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 30px;
+}
+.j1{
+    position: relative;
+}
+
+.j2{
+    position: absolute;
+    top:7000px;
+}
+
+.j2 p{
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 50px;
+    
+}
+.j3{
+    /* margin: 0 auto; */
+    /* width: 100%; */
+    margin-left: 80px;
+}
+
+.j4{
+   
+    padding: 20px 250px 20px 20px;
+    border: 2px solid #ccc;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 10px 100px;
+    /* user-select: none; */
+}
+.j4:hover{
+    text-decoration: underline;
+}
+.j5{
+    margin : 10px  100px;
+    font-weight: lighter;
+    font-size: 17px;
+    /* font-weight: bold; */
+    display: none;
+    height: 80px;
+    width: 900px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    line-height: 20px;
+    /* background-color: #EBB94D; */
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.k1{
+    position: relative;
+}
+.k2{
+    position: absolute;
+    top:8200px;
+    background-color: #ccc;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 16px;
+    
+}
+#kk1{
+    background-color: #1877F2;
+}
+ .k2 p{
+     margin: 30px;
+     /* margin-top: 50px;  */
+     clear: both;
+ }   
+ .k2 a{
+     text-decoration: none;
+     color: blue;
+ }
+.k4{
+    
+    /* display: block; */
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 10px 10px;
+    float: left;
+    background-color: slateblue;
+    box-shadow: 3px 5px 2px rgb(94, 92, 92);
+    user-select: none;
+}
+.k5{
+    display: flex;
+    justify-content: center;
+}
+#kk2{
+    background-color: #1B95E0;
+    cursor: pointer;
+}
+#kk2:hover{
+    opacity: 0.7;
+}
+/* .k4:active{
+    margin-top: 50px;
+}  */
+#kk2:active{
+    transform: translate(0,5px);
+    box-shadow: 3px 2px 2px rgb(94, 92, 92);
+}
+.k4 a{
+    color:#fff;
+}
